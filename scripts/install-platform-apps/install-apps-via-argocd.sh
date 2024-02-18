@@ -18,7 +18,7 @@ spec:
       valueFiles:
       - values.yaml
     path: metric-server
-    repoURL: https://github.com/rockman88v/kubernetes-platform-apps.git
+    repoURL: https://github.com/nkciam/kubernetes-platform-apps.git
     targetRevision: HEAD
   syncPolicy:
     automated:
@@ -36,7 +36,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/rockman88v/kubernetes-platform-apps.git
+    repoURL: https://github.com/nkciam/kubernetes-platform-apps.git
     path: cert-manager
     targetRevision: HEAD
   destination:
@@ -67,7 +67,7 @@ spec:
         - name: ""
           value: ""
     path: kubernetes-dashboard
-    repoURL: https://github.com/rockman88v/kubernetes-platform-apps.git
+    repoURL: https://github.com/nkciam/kubernetes-platform-apps.git
     targetRevision: HEAD
   syncPolicy:
     automated:
