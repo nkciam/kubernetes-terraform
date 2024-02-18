@@ -29,7 +29,7 @@ server:
     enabled: true
     controller: generic
     ingressClassName: "nginx"
-    hostname: argocd.viettq.com
+    hostname: argocd.chungnk.work.gd
     path: /
     pathType: Prefix
     tls: false
