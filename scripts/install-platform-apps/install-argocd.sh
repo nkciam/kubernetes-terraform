@@ -21,7 +21,7 @@ configs:
     server.insecure: true
   repositories:
     platform-app-repo:
-      url: https://github.com/rockman88v/kubernetes-platform-apps.git
+      url: https://github.com/nkciam/kubernetes-platform-apps.git
 
 ## Server
 server:
