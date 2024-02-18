@@ -12,7 +12,7 @@ sudo cp -i /etc/kubernetes/admin.conf /home/ubuntu/.kube/config
 sudo chown -R ubuntu:ubuntu /home/ubuntu/.kube/
 
 ##### update k8s_join_command param
-aws ssm put-parameter --name=k8s_join_command  --type=String --value="$(cat /var/log/cloud-init-output.log | grep 'kubeadm join' -A1)" --overwrite
+#aws ssm put-parameter --name=k8s_join_command  --type=String --value="$(cat /var/log/cloud-init-output.log | grep 'kubeadm join' -A1)" --overwrite
 
 # Install calico CNI
 echo "============Install Calico CNI ============"
